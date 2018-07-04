@@ -59,8 +59,8 @@ Client.on("message", async (message) => {
 	if (command == "creator") {
 		const embed = new Discord.RichEmbed()
 		.setColor(0x954D23)
-		.setTitle("Bot Creator:")
-		.addField("Main Creator", "Dollars_#5032")
+		.setTitle("Bot Creator:"), "Dollars_#5032")
+		.addField("Main Creator", "Twelvey#9569")
 		message.channel.send({embed})
 	}
 
